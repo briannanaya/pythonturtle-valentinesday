@@ -42,7 +42,7 @@ def animate_text(text,start_position,font=("Arial",15,"bold"),color="white",dela
         time.sleep(delay)
 
 while(1):
-    animate_text("Happy Valentine's Day!!", (-150, 0))
+    animate_text("Happy Valentine's Day!!!", (-150, 0))
     t.clear()
     t.setheading(0)
     t.pencolor("white")
